@@ -1,0 +1,139 @@
+body{
+    color: #2C3333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin:auto;
+}
+
+
+
+/******************************************** Navbar ****************************************************/
+
+.logo-img {
+    color: #87805E;
+    margin:.5rem;
+}
+
+.logo-text {
+    color: #FF5B00;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    margin:auto;
+}
+
+.navbar {
+    background-color: #FFEE63;
+    display: grid;
+    font-size:1.8rem;
+    grid-template-columns: 66.5% 7.5% 11% 9.5% 5.5%;
+}
+
+.navbar a {
+    font-size: 1rem;
+    color:#990000;
+    padding-top: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FF5B00;
+}
+
+
+
+/****************************************** Intro Section ***********************************************/
+
+.heading {
+    margin:0;
+    font-family: 'Bitter', serif;
+    font-size: 3.3rem;
+}
+
+.intro {
+    background-color: #D4D925;
+    padding: 7rem 15rem 5rem;   
+}
+
+.search label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/**************************************** Selections Section ********************************************/
+
+.breakfast {
+    object-position: 50% 30%;
+}
+
+.dessert {
+    object-position: 100% 65%;
+}
+
+.dinner {
+    object-position: 65%;
+}
+
+.img-credit {
+    color:#990000;
+    font-size: .7rem;
+    margin: 0 0 2rem;
+    text-decoration: none;
+}
+
+.meal-category {
+    background-color: #FF5B00;
+    color:#FFEE63;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 4rem 6rem 7rem;
+}
+
+.selection {
+    padding: 0 2rem;
+}
+
+.selection a {
+    color:#990000;
+    text-decoration: none;
+}
+
+.selection a:hover {
+    color: #D4D925;
+    text-decoration: none;
+}
+
+.selection-img {
+    height: 16rem;
+    margin:.5rem auto .2rem;
+    object-fit:cover;
+    width:20rem;
+}
+
+.selection-img:hover {
+    height: 15.5rem;
+    padding-bottom:.5rem;
+    width:19.5rem;
+}
+
+.selection-section-heading {
+    background-color: #FF5B00;
+    color:#FFEE63;
+    font-family: 'Bitter', serif;
+    font-size: 2.6rem;
+    margin:0;
+    padding: 5rem 6rem 0;
+    text-align: center;
+}
+
+.selection-title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin:0;
+}
+
+.snack {
+    object-position: 100% 85%;
+}
